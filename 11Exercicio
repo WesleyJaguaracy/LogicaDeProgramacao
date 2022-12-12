@@ -1,0 +1,22 @@
+//Ler um nome do teclado e ver se é igual ao seu nome. Imprimir conforme o caso: “NOME
+//CORRETO” ou “NOME INCORRETO”.
+
+algoritmo "Exercicios"
+
+var
+nome: caracter
+
+inicio
+
+escreval("Informe o primeiro número")
+leia (nome)
+
+SE (nome = "Marina") entao
+     escreva("NOME CORRETO")
+     
+SENAO
+     escreva ("NOME INCORRETO")
+
+FIMSE
+
+fimalgoritmo
