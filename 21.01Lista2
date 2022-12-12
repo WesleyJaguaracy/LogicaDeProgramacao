@@ -1,0 +1,17 @@
+Algoritmo "Pilar Sistemas"
+
+
+Var
+
+i, somatorio: inteiro
+
+
+Inicio
+
+I <- 0
+enquanto (I<101) faca
+escreva (I)
+I <- I+1
+fimenquanto
+
+Fimalgoritmo

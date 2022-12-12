@@ -1,0 +1,16 @@
+Algoritmo "Pilar Sistemas"
+
+
+Var
+
+i: inteiro
+
+Inicio
+
+i <- 1
+para i de 10 ate 1 passo -1 faca
+escreval (i)
+
+fimpara
+
+Fimalgoritmo
