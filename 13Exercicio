@@ -1,0 +1,39 @@
+/*
+Elaborar um algoritmo em pseudocodigo que efetue a leitura do nome e do sexo de uma pessoa, apresentando como saída uma das seguintes mensagens: “Ilmo Sr.”, para o sexo informado como masculino, ou a mensagem “Ilma Sra.”, para o sexo informado como feminino. Apresente na seqüência da mensagem impressa o nome da pessoa.
+*/
+
+algoritmo "Exercicios"
+
+var
+
+nome, sexo :literal
+
+inicio
+
+escreval("Digite o seu nome: ")
+
+leia(nome)
+
+escreval("Digite o seu sexo: ")
+
+leia(sexo)
+
+se(sexo = "Masculino") entao
+
+escreval("Sr. ",nome)
+
+senao
+
+se(sexo = "Feminino") entao
+
+escreval("Sra. ",nome)
+
+senao
+
+escreval("Digite um sexo válido")
+
+fimse
+
+fimse
+
+fimalgoritmo

@@ -1,0 +1,28 @@
+/*
+Elaborar um algoritmo em pseudocodigo que efetue a leitura de um número inteiro e apresentar uma mensagem informando se o número é par ou ímpar.
+*/
+
+
+algoritmo "Exercicios"
+
+var
+
+n: inteiro
+
+inicio
+
+escreval("Insira um número inteiro: ")
+
+leia(n)
+
+se(n mod 2 = 0) entao
+
+escreval("O número: ",n," é par")
+
+senao
+
+escreval("O número: ",n," é impar")
+
+fimse
+
+fimalgoritmo

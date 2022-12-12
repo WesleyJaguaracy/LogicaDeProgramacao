@@ -1,0 +1,31 @@
+/*
+Elaborar um algoritmo em pseudocodigo que leia um número. Se positivo armazene-o em uma variável chamada “A”, se for negativo, em uma variável chamada “B”. No final mostrar o resultado das duas variáveis.
+*/
+
+algoritmo "Exercicios"
+
+var
+
+n,a,b :real
+
+inicio
+
+escreval("Digite um número: ")
+
+leia(n)
+
+se(n >= 0) entao
+
+a<- n
+
+escreval("O número :",a," é variável de A")
+
+senao
+
+b <- n
+
+escreval("O número :",b," é variável de B")
+
+fimse
+
+fimalgoritmo

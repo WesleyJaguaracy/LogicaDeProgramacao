@@ -1,0 +1,68 @@
+/*
+Escrever um algoritmo para ler três valores inteiros e escrever na tela o maior e o menor deles. Considere que todos os valores são diferentes.
+*/
+
+algoritmo "Exercicios"
+
+var
+
+v1, v2, v3: inteiro
+
+inicio
+
+escreval("Digite o primeiro valor: ")
+
+leia(v1)
+
+escreval("Digite o segundo valor: ")
+
+leia(v2)
+
+escreval("Digite o terceiro valor: ")
+
+leia(v3)
+
+
+
+SE(v1 > v2) E (v1 > v3) E (v2 > v3) ENTAO
+
+escreval("O maior valor é: ",v1," e o menor é: ",v3)
+
+SENAO
+
+SE(v1 > v2) E (v1 > v3) E (v3 > v2) ENTAO
+
+escreval("O maior valor é: ",v1," e o menor é: ",v2)
+
+SENAO
+
+SE(v2 > v1) E (v2 > v3) E (v1 > v3) ENTAO
+
+escreval("O maior valor é: ",v2," e o menor é: ",v3)
+
+SENAO
+
+SE(v2 > v1) E (v2 > v3) E (v3 > v1) ENTAO
+
+escreval("O maior valor é: ",v2," e o menor é: ",v1)
+
+SENAO
+
+SE(v3 > v1) E (v3 > v2) E (v1 > v2) ENTAO
+
+escreval("O maior valor é: ",v3," e o menor é: ",v2)
+
+SENAO
+
+SE(v3 > v1) E (v3 > v2) E (v2 > v1) ENTAO
+
+escreval("O maior valor é: ",v3," e o menor é: ",v1)
+
+FIMSE
+FIMSE
+FIMSE
+FIMSE
+FIMSE
+FIMSE
+
+fimalgoritmo
