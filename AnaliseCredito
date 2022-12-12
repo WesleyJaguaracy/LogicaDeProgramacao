@@ -1,0 +1,30 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 11/12/2022
+// Seção de Declarações 
+
+var
+limite: inteiro
+compra: inteiro
+resultado: inteiro
+
+inicio
+
+limite <- 1000
+
+escreval("Insira o valor da compra: ")
+leia(compra)
+
+resultado <- limite - compra
+
+SE (resultado < 0) ENTAO
+
+escreval("Compra Recusada")
+
+SENAO
+escreval("Compra Aprovada!")
+
+FIMSE
+
+fimalgoritmo
