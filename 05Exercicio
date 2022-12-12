@@ -1,0 +1,17 @@
+algoritmo "Exercicios"
+
+var
+numero: inteiro
+
+inicio
+numero <- 0
+
+escreval("Digite um numero: ")
+leia(numero)
+
+numero <- numero + 1
+
+escreval("Sucessor", numero)
+
+
+fimalgoritmo
