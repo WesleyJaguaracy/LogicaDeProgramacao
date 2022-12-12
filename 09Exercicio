@@ -1,0 +1,18 @@
+algoritmo "Exercicios"
+
+var
+raio,altura,volume : real
+
+inicio
+
+escreval("Digite o Raio do Cilindro.")
+leia(raio)
+limpatela
+escreval("Digite a Altura do Cilindro.")
+leia(altura)
+limpatela
+
+volume <- 3.14*raio^2*altura
+escreval("O Volume do Cilindro é",volume)
+
+fimalgoritmo

@@ -1,0 +1,23 @@
+algoritmo "Exercicios"
+
+var
+anos, cigarros: inteiro
+preco: real
+
+inicio
+escreva("Informe o nº de cigarros fumados por dia: ")
+leia(cigarros)
+
+escreva("Informe o nº de anos que fuma: ")
+leia(anos)
+
+escreva("Informe o preço do maço: ")
+leia(preco)
+
+anos <- anos * 365
+cigarros <- cigarros * anos
+preco <- preco * (cigarros/20)
+
+escreva("Total gasto é: ",preco)
+
+fimalgoritmo

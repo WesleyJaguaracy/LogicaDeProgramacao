@@ -1,0 +1,13 @@
+algoritmo "Exercicios"
+
+var
+     x, y, r : inteiro
+inicio
+     escreva("Digite o dividendo: ")
+     leia(x)
+     escreva("Digite o divisor: ")
+     leia(y)
+     r <- x % y
+     escreva("Resto:",r)
+
+fimalgoritmo

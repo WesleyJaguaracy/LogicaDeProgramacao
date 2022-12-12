@@ -1,0 +1,36 @@
+algoritmo "Exercicios"
+
+var
+nota1, nota2, nota3, media: real
+
+inicio
+escreval("Digite a nota 1: ")
+leia(nota1)
+
+escreval("Digite a nota 2: ")
+leia(nota2)
+
+escreval("Digite a nota 3: ")
+leia(nota3)
+
+media <- (nota1 + nota2 + nota3)/3
+
+SE ( media >= 7) ENTAO
+escreval("Aprovado ", media)
+
+SENAO
+
+SE ((media < 7) OU (media > 5))  ENTAO
+escreval("Recuperação ", media)
+
+SENAO
+
+SE (media < 5) ENTAO
+escreval("Reprovado ", media)
+
+FIMSE
+FIMSE
+FIMSE
+
+
+fimalgoritmo
