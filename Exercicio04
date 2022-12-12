@@ -1,0 +1,20 @@
+algoritmo "semnome"
+
+var
+a: inteiro
+b: inteiro
+c: inteiro
+
+inicio
+a <- 999
+b <- 555
+
+c <- b
+b <- a
+a <- c
+
+escreval("A", a)
+escreval("B", b)
+
+
+fimalgoritmo
