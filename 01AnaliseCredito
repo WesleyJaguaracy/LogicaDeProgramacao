@@ -1,10 +1,7 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 11/12/2022
-// Seção de Declarações 
+algoritmo "semnome" 
 
 var
+
 limite: inteiro
 compra: inteiro
 resultado: inteiro

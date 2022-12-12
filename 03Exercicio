@@ -1,0 +1,33 @@
+algoritmo "semnome"
+
+var
+nome: caracter
+idade: inteiro
+formacao: caracter
+salario: real
+
+inicio
+
+escreval("Digite seu nome completo: ")
+leia(nome)
+
+escreval("Digite sua idade: ")
+leia(idade)
+
+escreval("Digite sua formação: ")
+leia(formacao)
+
+escreval("Digite seu salario: ")
+leia(salario)
+
+SE ((idade >= 30) OU (formacao = "ADM")) ENTAO
+
+escreval("Parabéns seu cadastro foi aprovado, entraremos em contato")
+
+SENAO
+
+escreval("Vamos direcioná-lo(a) para outro setor conforme seu perfil")
+
+FIMSE
+
+fimalgoritmo
