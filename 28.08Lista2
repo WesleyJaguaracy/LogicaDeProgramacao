@@ -1,0 +1,16 @@
+Algoritmo "Pilar Sistemas"
+
+var
+i, n: inteiro
+
+inicio
+
+i <- 4
+
+para n de 0 ate 10 faca
+escreval(n, " x", i ," =", i*n)
+
+fimpara
+
+
+Fimalgoritmo

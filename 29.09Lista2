@@ -1,0 +1,18 @@
+Algoritmo "Pilar Sistemas"
+
+var
+i, n, multi: inteiro
+
+inicio
+
+escreva("Digite o valor a multiplicar: ")
+leia(n)
+
+para i de 0 ate 10 faca
+
+multi <- n*i
+escreval("O valor da multiplicação: ", i, " x", n," =", multi)
+
+fimpara
+
+Fimalgoritmo

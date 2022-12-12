@@ -1,0 +1,18 @@
+Algoritmo "Pilar Sistemas"
+
+var
+n,c,fat: inteiro
+
+inicio
+
+fat <- 1
+escreval("Digite um valor: ")
+leia(n)
+
+para c de n ate 1 passo -1 faca
+fat <- fat * c
+    fimpara
+    escreva("Fatorial de ", n, " = ", fat)
+
+
+Fimalgoritmo

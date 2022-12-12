@@ -1,0 +1,21 @@
+Algoritmo "Pilar Sistemas"
+
+var
+
+numero, i : inteiro
+
+inicio
+escreva("Digite um numero: ")
+leia(numero)
+
+escreva("Divisores de ",numero,": ")
+escreva("{")
+   para i de 1 ate numero faca
+       se numero%i = 0 entao
+         escreva(i, ",")
+       fimse
+   fimpara
+   escreva("}")
+   escreval()
+
+Fimalgoritmo

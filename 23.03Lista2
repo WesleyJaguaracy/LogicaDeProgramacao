@@ -1,0 +1,21 @@
+Algoritmo "Pilar Sistemas"
+
+var
+
+valor : inteiro
+
+inicio
+ valor <- 100
+   enquanto valor > 1 faca
+      se ((valor%4) <> 0) entao
+          valor <- valor - 1
+      senao
+         se (valor < 100) entao
+                escreva (valor)
+         fimse
+         valor <- valor - 4
+      fimse
+fimenquanto
+
+
+Fimalgoritmo
