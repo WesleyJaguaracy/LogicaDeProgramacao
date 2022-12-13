@@ -1,0 +1,31 @@
+algoritmo "Pilar Sistemas
+
+var
+i, j, numero, raiz: inteiro
+
+inicio
+
+escreval("Escreva um numero inteiro: ")
+leia(numero)
+
+raiz <- 0
+repita
+raiz <- raiz + 1
+ate(raiz * raiz) > numero
+raiz <- raiz - 1
+escreval ("O numero aproximado da raiz quadrada é: ", raiz)
+
+//{escreval("Digite o valor de i: ")
+//leia(i)
+
+//enquanto x = 0 faca
+//i <- i + 1
+//escreva(x)
+
+//a <-  raizq(i)
+//SE(raizQ(i) = a)
+//x <- raizq(i)
+
+//escreval("Menor inteiro positivo x cuja o quadrado é superior a um valor l dado é: ",x) }
+
+fimalgoritmo

@@ -1,0 +1,39 @@
+algoritmo "Pilar Sistemas
+
+var
+
+par,cont,par1:inteiro
+
+media:real
+
+inicio
+
+// Seção de Comandos
+
+par <- 0
+
+cont <- 13
+
+enquanto cont <= 73 faca
+
+se(cont mod 2 = 0) entao //verifica se é par
+
+par <- cont + par //soma os pares
+
+par1 <- cont //pega os numeros pares
+
+escreval("",par1) //exibe os numeros pares
+
+fimse
+
+cont <- cont + 1
+
+fimenquanto
+
+media <- par / cont //a media tem que ser aqui mas eu não sei o calculo
+
+escreval("A soma total dos pares é :",par) //exibe a soma de todos os pares
+
+escreva("A media d: ", media)
+
+fimalgoritmo
